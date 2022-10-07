@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+.container {
+    max-width: 144rem;
+    max-height: 100vh;
+}
+
+.parte1 {
+    background-color: #290742;
+    padding-left: 13.5rem;
+    padding-top: 6.4rem;
+    padding-right: 13.5rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul li a {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header ul {
+    display: flex;
+    gap: 3.2rem;
+}
+
+.busca button {
+    background-color: #9E6DC2;
+    padding: 1rem 2.3rem;
+    border: none;
+    cursor: pointer;
+}
+
+.busca {
+
+    max-height: 4.4rem;
+    max-width: 30rem;
+    display: flex;
+    filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.25));
+}
+
+.busca input {
+    padding-top: 1.4rem;
+    padding-bottom: 1.4rem;
+    padding-left: 2.5rem;
+    padding-right: 8.4rem;
+    background-color: #170027;
+    border-radius: 4px 0px 0px 4px;
+    color: #FBF6FF;
+}
+
+main {
+    max-width: 57rem;
+    margin-bottom: 9.9rem;
+}
+
+main h1 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 3.6rem;
+    line-height: 5.4rem;
+    color: #9e6dc2;
+
+}
+
+main p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    color: #fbf6ff;
+    margin-top: 1.6rem;
+    margin-bottom: 2.4rem;
+}
+
+main a {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    color: #9e6dc2;
+    text-decoration: none;
+}
+
+.vejamais {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.conteudo-inicial {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    margin-top: 6.4rem;
+}
+
+.conteudo-inicial img {
+    max-width: 57rem;
+    max-height: 34.6rem;
+}
+
+aside {
+    border-top: 5px solid #4FFF4B;
+    background-color: #fbf7ff;
+    padding: 6rem 13.4rem 6.3rem 13.6rem;
+    display: flex;
+    gap: 13rem;
+    
+}
+
+.comecandoReact {
+    max-width: 56.9rem;
+    max-height: 54.6rem;
+}
+
+.data {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: #000000;
+    margin: 1.6rem 0;
+}
+
+aside h2 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    color: #290742;
+    margin: 1.6rem 0;
+}
+
+aside p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: #000000;
+}
+.principaisTecnicas p{
+    margin-bottom: 4.8rem;
+}
+footer{
+    background-color: #fbf7ff;
+    padding-left: 13.4rem;
+    padding-right: 13.7rem;
+    padding-bottom: 6.7rem;
+    display: flex;
+    gap: 3rem;
+}
+.card{
+    max-width: 37rem;
+}
+.card h2{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+    color: #290742;
+    margin: 1.6rem 0;
+}
+.card p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: #000000;
+}
